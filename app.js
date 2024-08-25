@@ -290,12 +290,12 @@ function ultra_Tap(){
             setUsedUltraTapTimes();
             setUsagesUltraTapLeft();
 
-            _diamond.attr('src', 'imgs/Brilliant-ultra-tap.png');
+            _diamond.attr('src', 'Brilliant-ultra-tap.png');
             ultraTap = true;
 
             setTimeout(() => {
                 ultraTap = false;
-                _diamond.attr('src', 'imgs/diamond-click.png');
+                _diamond.attr('src', 'diamond-click.png');
             }, 15000);
             
         } else {
