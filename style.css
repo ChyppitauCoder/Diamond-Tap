@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Amsterdam&display=swap');
+
+/* *{
+    margin: 0;
+} */
+
+.league{
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+  
+body{
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(170deg, rgba(49, 57, 73, 0.8) 20%, rgba(49, 57, 73, 0.5) 20%, rgba(49, 57, 73, 0.5) 35%, rgba(41, 48, 61, 0.6) 35%, rgba(41, 48, 61, 0.8) 45%, rgba(31, 36, 46, 0.5) 45%, rgba(31, 36, 46, 0.8) 75%, rgba(49, 57, 73, 0.5) 75%), linear-gradient(45deg, rgba(20, 24, 31, 0.8) 0%, rgba(41, 48, 61, 0.8) 50%, rgba(82, 95, 122, 0.8) 50%, rgba(133, 146, 173, 0.8) 100%) #313949;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    user-select: none;
+    overflow: hidden;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    margin: 0;
+}
+
+.upgrade-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.tasks-div{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+button{
+    font-family: 'Montserrat', 'New Amsterdam', 'Grey Qo';
+    background-color: rgb(91, 239, 255);
+    border: 0px solid;
+    margin: 1px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+img{
+    user-select: none;
+}
+
+.coin{
+    width: 20%;
+    height: 20%;
+}
+
+.score{
+    display: flex;
+    flex-direction: row;
+}
+
+.score-text{
+    transform: translateY(20%);
+}
+
+.diamond-tap{
+    width: 70%;
+    margin-left: -30%;
+    user-select: none; 
+    transition: width 0.1s ease-out, transform 0.1s ease-out;
+}
+
+.plus-one {
+    position: absolute;
+    /* color: rgb(52, 29, 201); */
+    color: white;
+    font-size: 160%;
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 1s ease-out;
+    pointer-events: none;
+}
+
+.falling-diamond {
+    position: absolute;
+    transition: opacity 1s ease-out;
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    bottom: 20%;
+    width: 30%;
+    margin-left: -40%;
+}
+
+.diamond-tap.shrink {
+    transform: scaleX(0.9);
+}
+
+.header{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.league{
+    margin: 10%;
+}
+
+.profit-per-second{
+    margin-left: -30%;
+}
+
+  

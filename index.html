@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Tap Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imgs/diamond.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <div class="game" id="game">
+        <div class="header" id="header">
+            <div class="profit-per-second" id="profit-div">
+                <p class="profit-per-second" id="profit-per-second">Profit Per 20 Second: 0</p>
+                <button id="upgrade-btn-profit-per-second">Upgrade!</button>
+                <p class="league" id="league">League: Wood</p>
+                <button id="explore">Explore Leagues</button>
+            </div>
+            <div class="upgrade-div" id="upgrade-div">
+                <p>Boosts: </p>
+                <!-- <button class="upgrade-btn" id="upgrade-btn-size">Upgrade Size Of Diamonds</button>
+                <button class="upgrade-btn" id="upgrade-btn-per-click">Upgrade Diamonds Falling Out per Click</button>
+                <button class="upgrade-btn" id="upgrade-btn-hide-time">Upgrade Diamonds Hide Time</button>
+                <button class="upgrade-btn" id="upgrade-btn-ultra-tap-time">Upgrade Ultra Tap Time</button>
+                <button class="upgrade-btn" id="upgrade-btn-extra-diamonds-time">Upgrade Extra Diamonds time</button>
+                <button class="upgrade-btn" id="upgrade-btn-profit-per-second">Upgrade Profit Per Second (+1)</button> -->
+                <!-- <button class="upgrade-btn" id="upgrade-btn-profit-per-tap">Upgrade Profit Per Tap(coin)</button>
+                <button class="upgrade-btn" id="upgrade-btn-profit-per-catch">Upgrade Profit Per Catch Diamonds</button> -->
+                <button class="upgrade-btn" id="upgrade-btn-ultra-tap">Ultra Tap</button>
+                <p id="ultra-tap-usages-allowed">Ultra Tap Left Usage: 3</p>
+                <!-- <button class="upgrade-btn" id="upgrade-btn">Extra Diamonds</button> -->
+            </div>
+            <div class="taps" id="tap">
+                <div class="score" id="score">
+                    <img src="imgs/coin.png" class="coin" alt="coin">
+                    <p class="score-text" id="score-text">0</p>
+                </div>
+                <div class="imgs" id="imgs">
+                    <img src="imgs/diamond-click.png" alt="diamond" id="diamond-tap" class="diamond-tap">
+                </div>
+            </div>
+            <div class="tasks-div" id="tasks-div">
+                <p id="tasks-text">Tasks: </p>
+                <!-- <button class="task-btn">Join Diamond Tap Telegram Channel</button> -->
+                <button class="task-btn" id="hamster-task">Join Hamster Kombat</button>
+                <!-- <button class="task-btn">Join Author YouTube</button>
+                <button class="task-btn">Join X Empire</button>
+                <button class="task-btn">Join Major</button>
+                <button class="task-btn">Join Diamond Tap YouTube</button>
+                <button class="task-btn">Connect Wallet</button>
+                <button class="task-btn">Ton Transaction</button>
+                <button class="task-btn">Share in telegram stories</button>
+                <button class="task-btn">Watch The Video</button> -->
+            </div>
+        </div>
+
+        <div class="falling-out-diamonds" id="falling-out-diamonds-container">
+            <!-- <img src="imgs/diamonds-on-tap.png" alt=""> -->
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
